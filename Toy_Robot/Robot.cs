@@ -29,7 +29,10 @@ namespace Toy_Robot
         public bool Place(int x, int y, Direction direction)
         {
             if (!_table.IsValidPosition(x, y))
-                return false;
+                {
+                    Console.WriteLine($"Cannot place robot at ({x},{y}) - position is outside the table boundaries");
+                    return false;
+                }
 
             _position = new Position(x, y);
             _direction = direction;
@@ -60,8 +63,11 @@ namespace Toy_Robot
                     break;
             }
 
-            if (!_table.IsValidPosition(newX, newY))
+            if (!_table.IsValidPosition(newX, newY)) 
+            {
+                Console.WriteLine($"Cannot move {_direction.ToString().ToLower()} from ({_position.X},{_position.Y}) - robot would fall off the table");
                 return false;
+            }
 
             _position.X = newX;
             _position.Y = newY;
