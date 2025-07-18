@@ -1,0 +1,210 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2AD4942-0F4B-4A04-88AE-7AFE60626C92}|..\\ToyRobotTest\\ToyRobotTest.csproj|c:\\users\\add\\downloads\\robot_toy_test-main\\robot_toy_test-main\\toyrobottest\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\ToyRobotTest\\obj\\Debug\\net8.0\\ToyRobotTest.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540C589A-44E2-44BF-869E-0AF6FB15EDA8}|Toy_Robot.csproj|c:\\users\\add\\downloads\\robot_toy_test-main\\robot_toy_test-main\\toy_robot\\robotapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540C589A-44E2-44BF-869E-0AF6FB15EDA8}|Toy_Robot.csproj|solutionrelative:robotapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540C589A-44E2-44BF-869E-0AF6FB15EDA8}|Toy_Robot.csproj|c:\\users\\add\\downloads\\robot_toy_test-main\\robot_toy_test-main\\toy_robot\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{540C589A-44E2-44BF-869E-0AF6FB15EDA8}|Toy_Robot.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540C589A-44E2-44BF-869E-0AF6FB15EDA8}|Toy_Robot.csproj|c:\\users\\add\\downloads\\robot_toy_test-main\\robot_toy_test-main\\toy_robot\\interfaces\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540C589A-44E2-44BF-869E-0AF6FB15EDA8}|Toy_Robot.csproj|solutionrelative:interfaces\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540C589A-44E2-44BF-869E-0AF6FB15EDA8}|Toy_Robot.csproj|c:\\users\\add\\downloads\\robot_toy_test-main\\robot_toy_test-main\\toy_robot\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540C589A-44E2-44BF-869E-0AF6FB15EDA8}|Toy_Robot.csproj|solutionrelative:robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540C589A-44E2-44BF-869E-0AF6FB15EDA8}|Toy_Robot.csproj|c:\\users\\add\\downloads\\robot_toy_test-main\\robot_toy_test-main\\toy_robot\\commander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540C589A-44E2-44BF-869E-0AF6FB15EDA8}|Toy_Robot.csproj|solutionrelative:commander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540C589A-44E2-44BF-869E-0AF6FB15EDA8}|Toy_Robot.csproj|c:\\users\\add\\downloads\\robot_toy_test-main\\robot_toy_test-main\\toy_robot\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540C589A-44E2-44BF-869E-0AF6FB15EDA8}|Toy_Robot.csproj|solutionrelative:table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540C589A-44E2-44BF-869E-0AF6FB15EDA8}|Toy_Robot.csproj|c:\\users\\add\\downloads\\robot_toy_test-main\\robot_toy_test-main\\toy_robot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540C589A-44E2-44BF-869E-0AF6FB15EDA8}|Toy_Robot.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540C589A-44E2-44BF-869E-0AF6FB15EDA8}|Toy_Robot.csproj|c:\\users\\add\\downloads\\robot_toy_test-main\\robot_toy_test-main\\toy_robot\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540C589A-44E2-44BF-869E-0AF6FB15EDA8}|Toy_Robot.csproj|solutionrelative:position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540C589A-44E2-44BF-869E-0AF6FB15EDA8}|Toy_Robot.csproj|c:\\users\\add\\downloads\\robot_toy_test-main\\robot_toy_test-main\\toy_robot\\types\\types.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540C589A-44E2-44BF-869E-0AF6FB15EDA8}|Toy_Robot.csproj|solutionrelative:types\\types.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\Toy Robot\\ToyRobotTest\\Test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\ToyRobotTest\\Test1.cs",
+              "RelativeDocumentMoniker": "..\\ToyRobotTest\\Test1.cs",
+              "ToolTip": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\ToyRobotTest\\Test1.cs",
+              "RelativeToolTip": "..\\ToyRobotTest\\Test1.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAIA1wGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T16:43:34.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToyRobotTest.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\ToyRobotTest\\obj\\Debug\\net8.0\\ToyRobotTest.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "..\\ToyRobotTest\\obj\\Debug\\net8.0\\ToyRobotTest.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\ToyRobotTest\\obj\\Debug\\net8.0\\ToyRobotTest.AssemblyInfo.cs",
+              "RelativeToolTip": "..\\ToyRobotTest\\obj\\Debug\\net8.0\\ToyRobotTest.AssemblyInfo.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T16:43:01.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-07-18T13:25:48.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "D:\\Code\\Toy Robot\\ToyRobotTest\\Test1.cs",
+              "ToolTip": "D:\\Code\\Toy Robot\\ToyRobotTest\\Test1.cs",
+              "ViewState": "AgIAANEBAAAAAAAAAAAAwPUBAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T11:14:12.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RobotApp.cs",
+              "DocumentMoniker": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\RobotApp.cs",
+              "RelativeDocumentMoniker": "RobotApp.cs",
+              "ToolTip": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\RobotApp.cs",
+              "RelativeToolTip": "RobotApp.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:52:22.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Commander.cs",
+              "DocumentMoniker": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\Commander.cs",
+              "RelativeDocumentMoniker": "Commander.cs",
+              "ToolTip": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\Commander.cs",
+              "RelativeToolTip": "Commander.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:45:15.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Robot.cs",
+              "DocumentMoniker": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\Robot.cs",
+              "RelativeDocumentMoniker": "Robot.cs",
+              "ToolTip": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\Robot.cs",
+              "RelativeToolTip": "Robot.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAwHUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:37:41.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\Position.cs",
+              "RelativeDocumentMoniker": "Position.cs",
+              "ToolTip": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\Position.cs",
+              "RelativeToolTip": "Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:32:44.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Table.cs",
+              "DocumentMoniker": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\Table.cs",
+              "RelativeDocumentMoniker": "Table.cs",
+              "ToolTip": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\Table.cs",
+              "RelativeToolTip": "Table.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:23:29.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Types.cs",
+              "DocumentMoniker": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\Types\\Types.cs",
+              "RelativeDocumentMoniker": "Types\\Types.cs",
+              "ToolTip": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\Types\\Types.cs",
+              "RelativeToolTip": "Types\\Types.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:15:59.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Interfaces.cs",
+              "DocumentMoniker": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\Interfaces\\Interfaces.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Interfaces.cs",
+              "ToolTip": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\Interfaces\\Interfaces.cs",
+              "RelativeToolTip": "Interfaces\\Interfaces.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:07:57.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ADD\\Downloads\\Robot_Toy_Test-main\\Robot_Toy_Test-main\\Toy_Robot\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T09:56:32.597Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

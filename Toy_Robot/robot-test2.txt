@@ -1,0 +1,160 @@
+# ===== ORIGINAL REQUIREMENT TESTS =====
+a)----------------
+PLACE 0,0,NORTH
+MOVE
+REPORT
+
+b)----------------
+PLACE 0,0,NORTH
+LEFT
+REPORT
+
+c)----------------
+PLACE 1,2,EAST
+MOVE
+MOVE
+LEFT
+MOVE
+REPORT
+
+# ===== ERROR HANDLING TESTS =====
+d) Commands before PLACE (should be ignored)
+----------------
+MOVE
+LEFT
+RIGHT
+REPORT
+PLACE 2,2,SOUTH
+REPORT
+
+e) Invalid PLACE commands (should be ignored)
+----------------
+PLACE
+PLACE 1
+PLACE 1,2
+PLACE a,b,NORTH
+PLACE 1,b,NORTH
+PLACE a,2,NORTH
+PLACE 1,2,INVALID
+PLACE -1,0,NORTH
+PLACE 0,-1,NORTH
+PLACE 5,0,NORTH
+PLACE 0,5,NORTH
+PLACE 10,10,NORTH
+PLACE 2,2,SOUTH
+REPORT
+
+f) Invalid commands (should be ignored)
+----------------
+PLACE 1,1,NORTH
+INVALID_COMMAND
+JUMP
+FLY
+TELEPORT
+DANCE
+REPORT
+
+# ===== BOUNDARY TESTING =====
+g) Prevent falling off - South edge
+----------------
+PLACE 0,0,SOUTH
+MOVE
+REPORT
+
+h) Prevent falling off - North edge
+----------------
+PLACE 4,4,NORTH
+MOVE
+REPORT
+
+i) Prevent falling off - West edge
+----------------
+PLACE 0,2,WEST
+MOVE
+REPORT
+
+j) Prevent falling off - East edge
+----------------
+PLACE 4,2,EAST
+MOVE
+REPORT
+
+k) Corner movements
+----------------
+PLACE 0,0,WEST
+MOVE
+LEFT
+MOVE
+REPORT
+
+# ===== ROTATION TESTING =====
+l) Full rotation left
+----------------
+PLACE 2,2,NORTH
+LEFT
+REPORT
+LEFT
+REPORT
+LEFT
+REPORT
+LEFT
+REPORT
+
+m) Full rotation right
+----------------
+PLACE 2,2,NORTH
+RIGHT
+REPORT
+RIGHT
+REPORT
+RIGHT
+REPORT
+RIGHT
+REPORT
+
+# ===== COMPLEX MOVEMENT PATTERNS =====
+n) Square movement pattern
+----------------
+PLACE 1,1,NORTH
+MOVE
+RIGHT
+MOVE
+RIGHT
+MOVE
+RIGHT
+MOVE
+REPORT
+
+o) Zigzag pattern with boundary hits
+----------------
+PLACE 0,0,NORTH
+MOVE
+MOVE
+RIGHT
+MOVE
+MOVE
+MOVE
+MOVE
+MOVE
+LEFT
+MOVE
+MOVE
+MOVE
+REPORT
+
+# ===== CASE SENSITIVITY TESTS =====
+p) Mixed case commands
+----------------
+place 1,1,north
+MOVE
+left
+RIGHT
+report
+
+q) All lowercase
+----------------
+place 3,3,east
+move
+right
+move
+report

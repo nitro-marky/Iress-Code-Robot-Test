@@ -1,0 +1,28 @@
+D:\Code\Toy Robot\Toy_Robot\bin\Debug\net8.0\Toy_Robot.exe
+D:\Code\Toy Robot\Toy_Robot\bin\Debug\net8.0\Toy_Robot.deps.json
+D:\Code\Toy Robot\Toy_Robot\bin\Debug\net8.0\Toy_Robot.runtimeconfig.json
+D:\Code\Toy Robot\Toy_Robot\bin\Debug\net8.0\Toy_Robot.dll
+D:\Code\Toy Robot\Toy_Robot\bin\Debug\net8.0\Toy_Robot.pdb
+D:\Code\Toy Robot\Toy_Robot\obj\Debug\net8.0\Toy_Robot.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Toy Robot\Toy_Robot\obj\Debug\net8.0\Toy_Robot.AssemblyInfoInputs.cache
+D:\Code\Toy Robot\Toy_Robot\obj\Debug\net8.0\Toy_Robot.AssemblyInfo.cs
+D:\Code\Toy Robot\Toy_Robot\obj\Debug\net8.0\Toy_Robot.csproj.CoreCompileInputs.cache
+D:\Code\Toy Robot\Toy_Robot\obj\Debug\net8.0\Toy_Robot.dll
+D:\Code\Toy Robot\Toy_Robot\obj\Debug\net8.0\refint\Toy_Robot.dll
+D:\Code\Toy Robot\Toy_Robot\obj\Debug\net8.0\Toy_Robot.pdb
+D:\Code\Toy Robot\Toy_Robot\obj\Debug\net8.0\Toy_Robot.genruntimeconfig.cache
+D:\Code\Toy Robot\Toy_Robot\obj\Debug\net8.0\ref\Toy_Robot.dll
+C:\Users\ADD\Downloads\Robot_Toy_Test-main\Robot_Toy_Test-main\Toy_Robot\bin\Debug\net8.0\Toy_Robot.exe
+C:\Users\ADD\Downloads\Robot_Toy_Test-main\Robot_Toy_Test-main\Toy_Robot\bin\Debug\net8.0\Toy_Robot.deps.json
+C:\Users\ADD\Downloads\Robot_Toy_Test-main\Robot_Toy_Test-main\Toy_Robot\bin\Debug\net8.0\Toy_Robot.runtimeconfig.json
+C:\Users\ADD\Downloads\Robot_Toy_Test-main\Robot_Toy_Test-main\Toy_Robot\bin\Debug\net8.0\Toy_Robot.dll
+C:\Users\ADD\Downloads\Robot_Toy_Test-main\Robot_Toy_Test-main\Toy_Robot\bin\Debug\net8.0\Toy_Robot.pdb
+C:\Users\ADD\Downloads\Robot_Toy_Test-main\Robot_Toy_Test-main\Toy_Robot\obj\Debug\net8.0\Toy_Robot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADD\Downloads\Robot_Toy_Test-main\Robot_Toy_Test-main\Toy_Robot\obj\Debug\net8.0\Toy_Robot.AssemblyInfoInputs.cache
+C:\Users\ADD\Downloads\Robot_Toy_Test-main\Robot_Toy_Test-main\Toy_Robot\obj\Debug\net8.0\Toy_Robot.AssemblyInfo.cs
+C:\Users\ADD\Downloads\Robot_Toy_Test-main\Robot_Toy_Test-main\Toy_Robot\obj\Debug\net8.0\Toy_Robot.csproj.CoreCompileInputs.cache
+C:\Users\ADD\Downloads\Robot_Toy_Test-main\Robot_Toy_Test-main\Toy_Robot\obj\Debug\net8.0\Toy_Robot.dll
+C:\Users\ADD\Downloads\Robot_Toy_Test-main\Robot_Toy_Test-main\Toy_Robot\obj\Debug\net8.0\refint\Toy_Robot.dll
+C:\Users\ADD\Downloads\Robot_Toy_Test-main\Robot_Toy_Test-main\Toy_Robot\obj\Debug\net8.0\Toy_Robot.pdb
+C:\Users\ADD\Downloads\Robot_Toy_Test-main\Robot_Toy_Test-main\Toy_Robot\obj\Debug\net8.0\Toy_Robot.genruntimeconfig.cache
+C:\Users\ADD\Downloads\Robot_Toy_Test-main\Robot_Toy_Test-main\Toy_Robot\obj\Debug\net8.0\ref\Toy_Robot.dll
