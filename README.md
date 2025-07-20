@@ -4,7 +4,9 @@ This guide explains how to test the Toy Robot simulator using the provided test 
 This has been written in C# .NET 8.0
 
 ### Requirements
-.NET 8.0 SDK installed
+## .Net SDK
+
+**Required to run:** .NET 8.0 SDK installed - Choose the SDK (not just runtime or desktop)<br>
 
 *Not 100% necessary as you can run `dotnet run` - Build Project (`dotnet build`)*
 
@@ -14,7 +16,7 @@ The project includes two test files in the root directory:<br>
 robot-test.txt - Basic functionality tests prodivded with the brief<br>
 robot-test2.txt - Comprehensive in-depth testing
 
-## Testing Methods - All these methods should use a command prompt opened in Toy_Robot Folder
+## Testing Methods - All these methods should be used in a command prompt opened in Toy_Robot Folder
 ### Method 1: Using Provided Test Files
 
 Quick Test - Open a console window in the project folder (Toy_Robot) 
