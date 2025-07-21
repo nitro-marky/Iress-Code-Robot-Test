@@ -31,7 +31,7 @@ Comprehensive Test (In-Depth)
 
 This is the expected outcome from running a test file:<br>
 
-![Expected output of a test file](https://github.com/nitro-marky/Robot-Test/blob/main/RobotTest2.png)
+![Expected output of a test file](https://github.com/nitro-marky/Robot-Test/blob/main/Robot_test.png)
 
 ### Method 2: Custom Test Files
 Create your own test file and run it:<br>
