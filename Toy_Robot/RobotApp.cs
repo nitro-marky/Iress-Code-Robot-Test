@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -53,6 +53,7 @@ namespace Toy_Robot
                 if (!File.Exists(filename))
                 {
                     Console.WriteLine($"Error: File '{filename}' not found.");
+                    Console.WriteLine("Switching to interactive mode...");
                     return;
                 }
 
@@ -63,14 +64,31 @@ namespace Toy_Robot
                 {
                     if (!string.IsNullOrWhiteSpace(line))
                     {
-                        var command = line.Trim().Split(' ')[0].ToUpper();
+                        var trimmedLine = line.Trim();
 
-                        if (IsValidRobotCommand(command))
+                        // Check if it's a section header (starts with letter followed by ')')
+                        if (IsSectionHeader(trimmedLine))
                         {
-                            Console.WriteLine($"{line}");
+                            Console.WriteLine(); // Add blank line before section
+                            Console.WriteLine(trimmedLine); // Display section header as-is
+                            continue;
                         }
 
-                        _processor.ProcessCommand(line);
+                        // Check if it's a comment (starts with #)
+                        if (trimmedLine.StartsWith("#"))
+                        {
+                            continue; 
+                        }
+
+                        var command = trimmedLine.Split(' ')[0].ToUpper();
+
+                        // Only show "Executing:" for valid robot commands (excluding REPORT)
+                        if (IsValidRobotCommand(command) && command != "REPORT")
+                        {
+                            Console.WriteLine($"Executing: {trimmedLine}");
+                        }
+
+                        _processor.ProcessCommand(trimmedLine);
                     }
                 }
 
@@ -80,6 +98,14 @@ namespace Toy_Robot
             {
                 Console.WriteLine($"Error reading file: {ex.Message}");
             }
+        }
+
+        private bool IsSectionHeader(string line)
+        {
+            // Check if line matches pattern like "a)----------------"
+            return line.Length >= 2 &&
+                   char.IsLetter(line[0]) &&
+                   line[1] == ')';
         }
 
         private bool IsValidRobotCommand(string command)
