@@ -3,6 +3,8 @@
 This guide explains how to test the Toy Robot simulator using the provided test files and interactive mode.
 This has been written in C# .NET 8.0
 
+Ideally download as a zip as the file structure will remain as planned.<br>
+
 ### Requirements
 ## .Net SDK
 
