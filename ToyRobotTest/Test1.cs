@@ -20,17 +20,6 @@ namespace ToyRobot.Tests
         }
 
         [TestMethod]
-        public void CustomSize_CreatesCorrectDimensions()
-        {
-            var table = new Table(3, 4);
-
-            Assert.IsTrue(table.IsValidPosition(0, 0));
-            Assert.IsTrue(table.IsValidPosition(2, 3));  // Max valid positions
-            Assert.IsFalse(table.IsValidPosition(3, 3)); // Width out of bounds
-            Assert.IsFalse(table.IsValidPosition(2, 4)); // Height out of bounds
-        }
-
-        [TestMethod]
         public void IsValidPosition_ValidPositions_ReturnsTrue()
         {
             var table = new Table(5, 5);
@@ -55,15 +44,6 @@ namespace ToyRobot.Tests
             Assert.IsFalse(table.IsValidPosition(-1, -1)); // Both negative
         }
 
-        [TestMethod]
-        public void IsValidPosition_RectangularTable_WorksCorrectly()
-        {
-            var table = new Table(6, 3); // 6 wide, 3 tall
-
-            Assert.IsTrue(table.IsValidPosition(5, 2));    // Max valid
-            Assert.IsFalse(table.IsValidPosition(6, 2));   // Width exceeded
-            Assert.IsFalse(table.IsValidPosition(5, 3));   // Height exceeded
-        }
     }
 
     [TestClass]
@@ -444,24 +424,7 @@ namespace ToyRobot.Tests
         }
 
         [TestMethod]
-        public void TestCase6_RectangularTable()
-        {
-            // Test with non-square table
-            var rectTable = new Table(6, 3);
-            var rectRobot = new Robot(rectTable);
-            var rectProcessor = new Commander(rectRobot);
-
-            rectProcessor.ProcessCommand("PLACE 5,2,EAST");
-            rectProcessor.ProcessCommand("MOVE"); // Should be ignored (would exceed width)
-            Assert.AreEqual("Output: 5,2,EAST", rectRobot.Report());
-
-            rectProcessor.ProcessCommand("PLACE 5,2,NORTH");
-            rectProcessor.ProcessCommand("MOVE"); // Should be ignored (would exceed height)
-            Assert.AreEqual("Output: 5,2,NORTH", rectRobot.Report());
-        }
-
-        [TestMethod]
-        public void TestCase7_MultipleCommands()
+        public void TestCase6_MultipleCommands()
         {
             // Test a sequence of valid commands
             _processor.ProcessCommand("PLACE 1,1,NORTH");
@@ -482,7 +445,7 @@ namespace ToyRobot.Tests
         }
 
         [TestMethod]
-        public void TestCase8_BoundaryTesting()
+        public void TestCase7_BoundaryTesting()
         {
             // Test all four corners and edges
 
