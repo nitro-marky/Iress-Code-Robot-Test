@@ -1,3 +1,4 @@
+# This was the test set by Iress as a take home test
 # Toy Robot - Mark Addis 
 
 This guide explains how to test the Toy Robot simulator using the provided test files and interactive mode.
