@@ -1,5 +1,5 @@
 # This was the test set by Iress as a take home test
-# Toy Robot - Mark Addis 
+# Toy Robot 
 
 This guide explains how to test the Toy Robot simulator using the provided test files and interactive mode.
 This has been written in C# .NET 8.0
